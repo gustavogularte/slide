@@ -1,0 +1,26 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.slide-wrapper {
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  transform: translate3d(0, 0, 0);
+}
+
+.slide li {
+  width: 80vw;
+  max-width: 800px;
+  flex-shrink: 0;
+  margin: 0px 10px;
+}
